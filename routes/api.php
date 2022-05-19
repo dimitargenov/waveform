@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/process/{fileName}', [ProcessController::class, 'parse']);
+Route::get('/process', [ProcessController::class, 'parse']);
 //app/Providers/ProcessServiceProvider.php
 //App/Http/Controllers/ProcessController
 ///storage/app/channels
