@@ -1,4 +1,4 @@
-### Installation
+### Start server
 ```
 php artisan serve
 ```
