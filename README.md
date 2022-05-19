@@ -1,5 +1,6 @@
 ### Start server
 ```
+composer install
 php artisan serve
 ```
 
